@@ -1,0 +1,26 @@
+{
+    "name": "samanzamani/data_miner",
+    "description": "Data miner application for get all holidays from time.ir",
+    "autoload": {
+        "psr-4": {
+            "Samanzamani\\DataMiner\\": "src/"
+        },
+        "files": [
+            "helper/jdf.php",
+            "helper/function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Saman Zamani",
+            "email": "saman.zamani1@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^7.0",
+        "symfony/css-selector": "^7.0",
+        "larapack/dd": "^1.1",
+        "ext-sqlite3": "*"
+    }
+}

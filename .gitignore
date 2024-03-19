@@ -1,0 +1,9 @@
+Api/vendor
+Api/composer.lock
+Data\ Miner/vendor
+Data\ Miner/composer.lock
+.idea
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

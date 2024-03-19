@@ -1,0 +1,22 @@
+{
+    "name": "samanzamani/api",
+    "autoload": {
+        "psr-4": {
+            "Samanzamani\\Api\\": "src/"
+        },
+        "files": [
+            "helper/jdf.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Saman Zamani",
+            "email": "saman.zamani1@gmail.com"
+        }
+    ],
+    "require": {
+        "larapack/dd": "^1.1",
+        "nikic/fast-route": "^1.3",
+        "illuminate/database": "^11.0"
+    }
+}
