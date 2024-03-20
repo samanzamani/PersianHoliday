@@ -8,7 +8,7 @@ The data is mined from the [time.ir](https://www.time.ir) website. On this websi
 The website has a lot of traffic and it is not a good idea to send a request to the website for each day. So I store the `HTML` files and use them to get the events. On the other hand, the website is protected by `CSRF` token and it is not a good idea to send a request to the website for each day.
 
 ### Can I extend the data range?
-Yes, you can. Just send a request to the website and store the `HTML` file in the `src` directory. Then run the `index.php` file to get the events.
+Yes, you can. Just send a request to the website [in this page](https://www.time.ir/fa/eventyear-%d8%aa%d9%82%d9%88%db%8c%d9%85-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87) and store the `HTML` file in the `src` directory. Then run the `index.php` file to get the events.
 ```php
 php index.php
 ```
